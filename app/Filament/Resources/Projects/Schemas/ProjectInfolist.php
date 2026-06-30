@@ -24,6 +24,14 @@ class ProjectInfolist
                     ->placeholder('-'),
                 TextEntry::make('latitude')
                     ->placeholder('-'),
+                TextEntry::make('youtube')
+                    ->placeholder('-'),
+                TextEntry::make('sm')
+                    ->placeholder('-'),
+                TextEntry::make('supervisor')
+                    ->placeholder('-'),
+                TextEntry::make('drafter')
+                    ->placeholder('-'),
                 TextEntry::make('progress_project')
                     ->placeholder('-'),
                 TextEntry::make('status')

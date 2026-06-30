@@ -29,6 +29,14 @@ class ProjectsTable
                     ->searchable(),
                 TextColumn::make('latitude')
                     ->searchable(),
+                TextColumn::make('youtube')
+                    ->searchable(),
+                TextColumn::make('sm')
+                    ->searchable(),
+                TextColumn::make('supervisor')
+                    ->searchable(),
+                TextColumn::make('drafter')
+                    ->searchable(),
                 TextColumn::make('progress_project')
                     ->searchable(),
                 TextColumn::make('status')

@@ -23,6 +23,10 @@ class ProjectForm
                 TextInput::make('architect'),
                 TextInput::make('longitude'),
                 TextInput::make('latitude'),
+                TextInput::make('youtube'),
+                TextInput::make('sm'),
+                TextInput::make('supervisor'),
+                TextInput::make('drafter'),
                 TextInput::make('progress_project'),
                 Select::make('status')
                     ->options(['done' => 'Done', 'progress' => 'Progress', 'hold' => 'Hold', 'cancelled' => 'Cancelled'])

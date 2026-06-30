@@ -21,6 +21,10 @@ return new class extends Migration
             $table->string('architect')->nullable();
             $table->string('longitude')->nullable();
             $table->string('latitude')->nullable();
+            $table->string('youtube')->nullable();
+            $table->string('sm')->nullable();
+            $table->string('supervisor')->nullable();
+            $table->string('drafter')->nullable();
             $table->string('progress_project')->nullable();
             $table->enum('status' ,['done' , 'progress', 'hold' , 'cancelled'])->default('progress');
             $table->timestamps();
